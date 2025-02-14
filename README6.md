@@ -26,7 +26,9 @@ scores = list(map(int, input().split()))
 threshold = scores[k - 1]
 
 # Count qualifying participants
-count = sum(1 for score in scores if score >= threshold and score > 0)
+count = sum(
+ for score in scores
+      if score >= threshold and score > 0)
 
 # Print the result
 print(count)
