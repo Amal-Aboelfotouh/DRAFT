@@ -1,133 +1,188 @@
-# Object-Oriented Programming (OOP) in Python
+# Intermediate Python Concepts
 
-## 1. Classes and Objects
-Classes define blueprints for objects, and objects are instances of classes.
+## 1. List Comprehensions
+List comprehensions provide a concise way to create lists.
 
 ```python
-class Car:
-    def __init__(self, brand, model):
-        self.brand = brand
-        self.model = model
-
-    def display_info(self):
-        print(f"Car: {self.brand} {self.model}")
-
-my_car = Car("Toyota", "Corolla")
-my_car.display_info()
+numbers = [x for x in range(10) if x % 2 == 0]
+print(numbers)
 ```
 
 **Output:**
 ```
-Car: Toyota Corolla
+[0, 2, 4, 6, 8]
 ```
 
 ---
 
-## 2. Inheritance
-Inheritance allows a class to inherit attributes and methods from another class.
+## 2. Lambda Functions
+Lambda functions are small, anonymous functions.
 
 ```python
-class Vehicle:
-    def __init__(self, brand):
-        self.brand = brand
-    
-    def start_engine(self):
-        print(f"{self.brand} engine started")
-
-class Car(Vehicle):
-    def __init__(self, brand, model):
-        super().__init__(brand)
-        self.model = model
-
-my_car = Car("Honda", "Civic")
-my_car.start_engine()
+square = lambda x: x * x
+print(square(5))
 ```
 
 **Output:**
 ```
-Honda engine started
+25
 ```
 
 ---
 
-## 3. Polymorphism
-Polymorphism allows different classes to be treated as instances of the same class through a shared interface.
+## 3. Map, Filter, and Reduce
+
+### **Map:** Applies a function to all items in an iterable.
+```python
+double = list(map(lambda x: x * 2, [1, 2, 3, 4]))
+print(double)
+```
+**Output:**
+```
+[2, 4, 6, 8]
+```
+
+### **Filter:** Filters elements based on a condition.
+```python
+even_numbers = list(filter(lambda x: x % 2 == 0, [1, 2, 3, 4, 5]))
+print(even_numbers)
+```
+**Output:**
+```
+[2, 4]
+```
+
+### **Reduce:** Performs a rolling computation on a list.
+```python
+from functools import reduce
+sum_numbers = reduce(lambda x, y: x + y, [1, 2, 3, 4])
+print(sum_numbers)
+```
+**Output:**
+```
+10
+```
+
+---
+
+## 4. Exception Handling
+Exception handling prevents crashes by catching errors.
 
 ```python
-class Dog:
-    def speak(self):
-        return "Woof!"
-
-class Cat:
-    def speak(self):
-        return "Meow!"
-
-def animal_sound(animal):
-    print(animal.speak())
-
-dog = Dog()
-cat = Cat()
-animal_sound(dog)
-animal_sound(cat)
+try:
+    result = 10 / 0
+except ZeroDivisionError:
+    print("Cannot divide by zero!")
+finally:
+    print("Execution completed.")
 ```
 
 **Output:**
 ```
-Woof!
-Meow!
+Cannot divide by zero!
+Execution completed.
 ```
 
 ---
 
-## 4. Encapsulation
-Encapsulation restricts access to certain details of an object, protecting its integrity.
+## 5. File Handling
+Reading and writing files in Python.
+
+### **Writing to a File:**
+```python
+with open("example.txt", "w") as file:
+    file.write("Hello, World!")
+```
+
+### **Reading from a File:**
+```python
+with open("example.txt", "r") as file:
+    content = file.read()
+    print(content)
+```
+**Output:**
+```
+Hello, World!
+```
+
+---
+
+## 6. Working with JSON
+Handling JSON data in Python.
 
 ```python
-class BankAccount:
-    def __init__(self, balance):
-        self.__balance = balance  # Private attribute
-    
-    def deposit(self, amount):
-        self.__balance += amount
-    
-    def get_balance(self):
-        return self.__balance
+import json
 
-account = BankAccount(1000)
-account.deposit(500)
-print(account.get_balance())
+person = {"name": "Alice", "age": 25}
+json_data = json.dumps(person)
+print(json_data)
 ```
 
 **Output:**
 ```
-1500
+{"name": "Alice", "age": 25}
 ```
 
 ---
 
-## 5. Abstraction
-Abstraction hides implementation details and only exposes essential functionalities.
+## 7. Using `args` and `kwargs`
 
+### **Using `*args`:**
 ```python
-from abc import ABC, abstractmethod
+def add_numbers(*args):
+    return sum(args)
 
-class Animal(ABC):
-    @abstractmethod
-    def make_sound(self):
-        pass
-
-class Dog(Animal):
-    def make_sound(self):
-        return "Bark!"
-
-dog = Dog()
-print(dog.make_sound())
+print(add_numbers(1, 2, 3, 4))
 ```
-
 **Output:**
 ```
-Bark!
+10
+```
+
+### **Using `**kwargs`:**
+```python
+def print_info(**kwargs):
+    for key, value in kwargs.items():
+        print(f"{key}: {value}")
+
+print_info(name="Alice", age=25)
+```
+**Output:**
+```
+name: Alice
+age: 25
 ```
 
 ---
 
+## 8. Enumerate and Zip
+
+### **Enumerate:** Gets index and value while iterating.
+```python
+names = ["Alice", "Bob", "Charlie"]
+for index, name in enumerate(names):
+    print(index, name)
+```
+**Output:**
+```
+0 Alice
+1 Bob
+2 Charlie
+```
+
+### **Zip:** Combines two lists element-wise.
+```python
+names = ["Alice", "Bob"]
+ages = [25, 30]
+for name, age in zip(names, ages):
+    print(f"{name} is {age} years old")
+```
+**Output:**
+```
+Alice is 25 years old
+Bob is 30 years old
+```
+
+---
+
+This `README.md` file explains intermediate Python concepts with examples. Feel free to extend it! 🚀
