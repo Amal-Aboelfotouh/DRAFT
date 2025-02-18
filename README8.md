@@ -53,24 +53,6 @@ with open("example.txt", "w") as file:  # Open file in write mode
 ```
 
 ---
-
-## 4. Metaclasses
-### What are Metaclasses?
-Metaclasses define the behavior of classes in Python. They allow customization of class creation.
-
-### Example:
-```python
-class Meta(type):
-    def __new__(cls, name, bases, class_dict):
-        print(f'Creating class {name}')  # Logs class creation
-        return super().__new__(cls, name, bases, class_dict)
-
-class MyClass(metaclass=Meta):  # Using a metaclass
-    pass
-```
-
----
-
 ##5. Asynchronous Programming (async/await)
 ### What is Asynchronous Programming?
 Asynchronous programming allows execution of tasks without waiting for the previous task to finish.
