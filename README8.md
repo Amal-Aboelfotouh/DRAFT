@@ -71,41 +71,7 @@ class MyClass(metaclass=Meta):  # Using a metaclass
 
 ---
 
-## 5. Multithreading & Multiprocessing
-### What is Multithreading?
-Multithreading allows running multiple threads in parallel within a single process. Useful for I/O-bound tasks.
-
-### Example:
-```python
-import threading
-
-def print_numbers():
-    for i in range(5):
-        print(i)  # Print numbers from 0 to 4
-
-thread = threading.Thread(target=print_numbers)  # Creating a thread
-thread.start()
-thread.join()  # Wait for thread to complete
-```
-
-### What is Multiprocessing?
-Multiprocessing runs tasks in separate processes, utilizing multiple CPU cores. Useful for CPU-bound tasks.
-
-### Example:
-```python
-import multiprocessing
-
-def worker():
-    print("Worker function running")
-
-process = multiprocessing.Process(target=worker)  # Creating a process
-process.start()
-process.join()  # Wait for process to complete
-```
-
----
-
-## 6. Asynchronous Programming (async/await)
+##5. Asynchronous Programming (async/await)
 ### What is Asynchronous Programming?
 Asynchronous programming allows execution of tasks without waiting for the previous task to finish.
 
@@ -122,7 +88,7 @@ asyncio.run(hello())  # Run async function
 
 ---
 
-## 7. Function Overloading with `singledispatch`
+## 6. Function Overloading with `singledispatch`
 ### What is Function Overloading?
 Python doesn’t support traditional function overloading, but `functools.singledispatch` can achieve similar behavior.
 
@@ -151,7 +117,7 @@ process("hello")  # Calls string-specific function
 
 ---
 
-## 8. Property Decorators
+## 7. Property Decorators
 ### What are Property Decorators?
 They allow us to define methods that behave like attributes.
 
@@ -171,7 +137,7 @@ print(person.name)  # Accessing property as an attribute
 
 ---
 
-## 9. Reflection and Introspection
+## 8. Reflection and Introspection
 ### What is Reflection?
 Reflection allows inspection of object attributes and methods at runtime.
 
@@ -187,7 +153,7 @@ print(dir(obj))  # Lists all attributes and methods
 
 ---
 
-## 10. Monkey Patching
+## 9. Monkey Patching
 ### What is Monkey Patching?
 Monkey patching allows modifying or extending code at runtime.
 
