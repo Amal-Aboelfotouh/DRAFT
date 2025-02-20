@@ -142,4 +142,3 @@ A city has a population of **392,458**.
 
 ---
 
-This document provides detailed explanations, examples, and an extensive set of practice problems to help master large numbers, rounding, and negative numbers.
