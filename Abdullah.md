@@ -133,3 +133,63 @@
 8. The ratio of water to juice concentrate is 4:1. If you have 12 liters of water, how much concentrate is needed?
 9. The ratio of adults to children in a theater is 3:8. If there are 24 adults, how many children are there?
 10. A factory produces red to black chairs in a 5:2 ratio. If 40 red chairs are made, how many black ones are there?
+
+
+
+
+# Quadratic Functions
+
+## Identifying the Vertex from a Graph
+1. Identify the vertex of y = x² - 6x + 8 from its graph.
+2. Determine the vertex of y = -x² + 4x - 5.
+3. Find the vertex of the function y = (x - 3)² + 2.
+4. The vertex of y = -2(x + 1)² - 3 is?
+5. What is the vertex of y = x² - 8x + 16?
+6. Identify the vertex of y = 3x² - 6x + 4.
+7. Determine the vertex of y = -x² + 10x - 25.
+8. The vertex of y = 2(x - 5)² + 7 is?
+9. Find the vertex of y = -3(x + 2)² - 6.
+10. What is the vertex of y = x² - 4x + 1?
+
+# Interpolation Formula
+
+## Predicting Unknown Values
+1. Estimate f(3.5) given (3, 10) and (4, 20).
+2. Predict the missing value for x=7 using (6, 18) and (8, 22).
+3. Find f(12.5) given (12, 35) and (13, 42).
+4. Estimate the function value at x=15 given (14, 50) and (16, 60).
+5. Use interpolation to determine f(9.2) from (9, 27) and (10, 30).
+6. Predict f(18.75) given (18, 72) and (19, 80).
+7. Find the best estimate for f(5.5) using (5, 25) and (6, 30).
+8. Determine f(21.3) given (21, 88) and (22, 94).
+9. Estimate f(30.5) using (30, 110) and (31, 115).
+10. Predict f(44.8) given (44, 132) and (45, 140).
+
+# Pythagorean Theorem
+
+## Identifying Right Triangles and Finding Missing Sides
+1. Does the set {6, 8, 10} form a right triangle?
+2. Identify if {9, 12, 15} makes a right triangle.
+3. Find the missing side if a right triangle has legs 7 and 24.
+4. Determine the hypotenuse if a right triangle has legs of 5 and 12.
+5. A triangle has sides 10, 24, and x. Find x if it is a right triangle.
+6. Check if the sides {15, 20, 25} form a right triangle.
+7. Solve for the missing side in a triangle with sides 8, x, and 17.
+8. If the legs of a triangle are 9 and 40, what is the hypotenuse?
+9. Find the missing side if a right triangle has a hypotenuse of 13 and one leg of 5.
+10. Determine if {7, 24, 25} forms a right triangle.
+
+# Trigonometry in Right Triangles
+
+## Trigonometric Ratios (SOH, CAH, TOA)
+1. Find sin(30°), cos(30°), and tan(30°).
+2. Determine sin(45°), cos(45°), and tan(45°).
+3. Calculate sin(60°), cos(60°), and tan(60°).
+4. Find sin(90°) and cos(90°).
+5. Solve for the missing side in a right triangle using sin(37°) = 0.6.
+6. Given tan(53°) = 1.327, find the missing side in a right triangle.
+7. If cos(25°) = 0.906, solve for the adjacent side.
+8. Use sin(40°) = 0.643 to find the opposite side in a right triangle.
+9. Solve for the missing angle using tan⁻¹(3/4).
+10. If a triangle has an opposite side of 7 and a hypotenuse of 25, find sin(θ).
+
