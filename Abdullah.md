@@ -101,3 +101,19 @@
 8. Find the volume of a triangular prism with a base of 7 cm, height of 5 cm, and length of 9 cm.
 9. A rectangular prism has a volume of 360 cm³. If its length is 12 cm and its width is 5 cm, find its height.
 10. Find the volume of a cylinder with a radius of 6 cm and a height of 10 cm.
+
+
+
+# Slopes and Equations of Lines
+
+## Finding the Slope of a Straight Line
+1. Find the slope of the line passing through (3, 7) and (6, 11).
+2. Determine the slope of the line passing through (-2, 4) and (5, -3).
+3. What is the slope of a line that passes through (0, 0) and (4, 8)?
+4. Find the slope of a vertical line passing through (2, 5).
+5. Calculate the slope of a horizontal line passing through (-3, 6).
+6. Find the slope of the line passing through (-7, -5) and (-3, -1).
+7. Determine the slope of the line passing through (10, -4) and (15, 6).
+8. What is the slope of the line that passes through (4, 9) and (-4, -3)?
+9. Find the slope of the line passing through (8, 12) and (3, -3).
+10. Calculate the slope of the line passing through (-6, 2) and (-1, -3).
