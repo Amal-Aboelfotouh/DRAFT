@@ -117,3 +117,19 @@
 8. What is the slope of the line that passes through (4, 9) and (-4, -3)?
 9. Find the slope of the line passing through (8, 12) and (3, -3).
 10. Calculate the slope of the line passing through (-6, 2) and (-1, -3).
+
+
+
+# Ratios and Proportions
+
+## Solving Ratio Problems
+1. The ratio of cats to dogs is 2:5. If there are 35 dogs, how many cats are there?
+2. A school has a student-teacher ratio of 18:1. If there are 54 teachers, how many students are there?
+3. The ratio of apples to oranges is 4:7. If there are 28 oranges, how many apples are there?
+4. A recipe calls for a flour-to-sugar ratio of 3:2. If you use 9 cups of flour, how much sugar is needed?
+5. The ratio of boys to girls in a class is 5:6. If there are 30 girls, how many boys are there?
+6. The ratio of red to blue marbles is 7:3. If there are 21 red marbles, how many blue ones are there?
+7. A map has a scale ratio of 1:50,000. If a road is 3 cm on the map, how long is it in reality?
+8. The ratio of water to juice concentrate is 4:1. If you have 12 liters of water, how much concentrate is needed?
+9. The ratio of adults to children in a theater is 3:8. If there are 24 adults, how many children are there?
+10. A factory produces red to black chairs in a 5:2 ratio. If 40 red chairs are made, how many black ones are there?
